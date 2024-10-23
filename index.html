@@ -10,7 +10,6 @@
 <body> 
 
     <ul class="nav justify-content-end">
-        <h1>Programacion Competitiva</h1>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Active</a>
         </li>
@@ -24,6 +23,9 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+
+      <h1>Programacion Competitiva</h1>
+
 
     <div class="informacion">
         <h3>Compite como buen programador</h3>
@@ -72,16 +74,14 @@
     
       <br>
       <br>
-      <form action="" method="post">
-        <label for="">Nombre Completo:</label>
-        <input type="text" name="txtNombre">
-        <br>
-        <label for="">Email:</label>
-        <input type="email" name="txtEmail">
-        <br>
-        <label for="">Fecha Nacimiento:</label>
-        <input type="date" name="txtFecha">
-      </form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre Completo</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Correo Electronico</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite su email"></textarea>
+      </div>
       <br>
       <br>
       <footer>
